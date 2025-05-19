@@ -1,4 +1,4 @@
-# Sistema Acadêmico - FCTE
+# Sistema Acadêmico - FCTE.
 
 ## Descrição do Projeto
 
@@ -9,8 +9,8 @@ O enunciado do trabalho pode ser encontrado aqui:
 
 ## Dados do Aluno
 
-- **Nome completo:** [Preencher aqui]
-- **Matrícula:** [Preencher aqui]
+- **Nome completo:** .Paulo Vitor Gomes de Brito Matos.
+- **Matrícula:** .241025971.
 - **Curso:** [Preencher aqui]
 - **Turma:** [Preencher aqui]
 
