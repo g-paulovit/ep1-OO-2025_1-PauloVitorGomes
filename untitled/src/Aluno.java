@@ -3,15 +3,16 @@ public class Aluno {
     private String matricula;
     private String curso;
     private String email;
-    private String senha;
+    private Boolean especial;
 
-    public Aluno(String nome, String curso, String email, String senha) {
+    public Aluno(String nome, String matricula, String curso, String email, Boolean especial) {
         this.nome = nome;
         this.matricula = matricula;
         this.curso = curso;
         this.email = email;
-        this.senha = senha;
+        this.especial = especial;
     }
+
 
     public Aluno() {
     }
@@ -28,8 +29,8 @@ public class Aluno {
     public String getEmail() {
         return email;
     }
-    public String getSenha() {
-        return senha;
+    public Boolean getEspecial() {
+        return especial;
     }
     public void setNome(String nome) {
         this.nome = nome;
@@ -43,7 +44,12 @@ public class Aluno {
     public void setEmail(String email) {
         this.email = email;
     }
-    public void setSenha(String senha) {
-        this.senha = senha;
+    public void setEspecial(Boolean especial) {
+        this.especial = especial;
+    }
+    @Override
+    public String toString() {
+        return String.format("Nome: %s | Matrícula: %s | Curso: %s | Email: %s | Especial: %s",
+                nome, matricula, curso, email, especial ? "Sim" : "Não");
     }
 }

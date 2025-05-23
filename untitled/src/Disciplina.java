@@ -1,17 +1,59 @@
-public class Disciplina {
-    private String nome;
-    private String codigo;
-    private String carga_horaria;
-    private String pre_requisitos ;
-    private int presenca;
-    private int nota;
+import java.util.ArrayList;
+import java.util.List;
 
-    public Disciplina(String nome, String codigo, String carga_horaria, String pre_requisitos, int presenca, int nota) {
-        this.nome = nome;
+public class Disciplina {
+    private String codigo;
+    private String nome;
+    private int cargaHoraria;
+    private List<String> codigosPreRequisitos;
+    private List<Turma> turmas;
+
+    public Disciplina(String codigo, String nome, int cargaHoraria) {
         this.codigo = codigo;
-        this.carga_horaria = carga_horaria;
-        this.pre_requisitos = pre_requisitos;
-        this.presenca = presenca;
-        this.nota = nota;
+        this.nome = nome;
+        this.cargaHoraria = cargaHoraria;
+        this.codigosPreRequisitos = new ArrayList<>();
+        this.turmas = new ArrayList<>();
+    }
+
+    public String getCodigo() {
+        return codigo;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getCargaHoraria() {
+        return cargaHoraria;
+    }
+
+    public List<String> getCodigosPreRequisitos() {
+        return codigosPreRequisitos;
+    }
+
+    public List<Turma> getTurmas() {
+        return turmas;
+    }
+
+    public void adicionarPreRequisito(String codigoDisciplina) {
+        if (!codigosPreRequisitos.contains(codigoDisciplina)) {
+            codigosPreRequisitos.add(codigoDisciplina);
+        }
+    }
+
+    public void adicionarTurma(Turma turma) {
+        for (Turma t : turmas) {
+            if (t.getHorario().equals(turma.getHorario())) {
+                System.out.println("Erro: já existe uma turma dessa disciplina nesse horário.");
+                return;
+            }
+        }
+        turmas.add(turma);
+        System.out.println("Turma adicionada com sucesso.");
+    }
+
+        turmas.add(Turma);
     }
 }
+
