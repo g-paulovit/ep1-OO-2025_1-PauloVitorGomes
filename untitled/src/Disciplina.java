@@ -12,6 +12,7 @@ public class Disciplina {
         this.codigo = codigo;
         this.nome = nome;
         this.cargaHoraria = cargaHoraria;
+        this.codigo = codigo;
         this.codigosPreRequisitos = new ArrayList<>();
         this.turmas = new ArrayList<>();
     }
@@ -53,7 +54,7 @@ public class Disciplina {
         System.out.println("Turma adicionada com sucesso.");
     }
 
-        turmas.add(Turma);
+       //turmas.add(Turma);
     }
-}
+
 

@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        SistemaAcademico sistema = new SistemaAcademico();
         Scanner scanner = new Scanner(System.in);
+        Sistema sistema = new Sistema(); // <<< ESTA LINHA É FUNDAMENTAL
         int opcao;
 
         do {
@@ -22,14 +22,30 @@ public class Main {
             switch (opcao) {
                 case 1 -> {
                     System.out.println("\n--- Cadastro de Aluno ---");
-                    System.out.print("Nome: ");
+                    System.out.print("Nome: (max: 50 caracteres) ");
                     String nome = scanner.nextLine();
+                    if (nome.length() > 50) {
+                        System.out.println("Erro: nome inválido.");
+                        break;
+                    }
                     System.out.print("Matrícula: ");
                     String matricula = scanner.nextLine();
+                    if (matricula.length() > 9) {
+                        System.out.println("Erro: matrícula inválida.");
+                        return;
+                    }
                     System.out.print("Curso: ");
                     String curso = scanner.nextLine();
+                    if (curso.length() > 20) {
+                        System.out.println("Erro: curso inválido.");
+                        return;
+                    }
                     System.out.print("Email: ");
                     String email = scanner.nextLine();
+                    if (!email.matches("^[\\w.-]+@[\\w.-]+\\.[a-zA-Z]{2,}$")) {
+                        System.out.println("Erro: e-mail inválido.");
+                        return;
+                    }
                     System.out.print("É aluno especial? (s/n): ");
                     boolean especial = scanner.nextLine().equalsIgnoreCase("s");
 

@@ -13,7 +13,7 @@ public class Turma {
     private List<Aluno> alunosMatriculados;
 
     public Turma(String professor, String semestre, String formaAvaliacao, boolean presencial,
-                 String sala, String horario, int capacidadeMaxima) {
+                 String sala, LocalTime horario, int capacidadeMaxima) {
 
         this.professor = professor;
         this.semestre = semestre;
