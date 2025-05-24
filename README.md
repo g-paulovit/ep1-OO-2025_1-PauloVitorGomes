@@ -9,10 +9,10 @@ O enunciado do trabalho pode ser encontrado aqui:
 
 ## Dados do Aluno
 
-- **Nome completo:** .Paulo Vitor Gomes de Brito Matos.
-- **Matrícula:** .241025971.
-- **Curso:** [Preencher aqui]
-- **Turma:** [Preencher aqui]
+- **Nome completo:** Paulo Vitor Gomes de Brito Matos.
+- **Matrícula:** 241025971.
+- **Curso:** Engenharias.
+- **Turma:** Turma 06.
 
 ---
 
@@ -28,7 +28,7 @@ O enunciado do trabalho pode ser encontrado aqui:
    [Descrever aqui as principais pastas do projeto]
 
 3. **Versão do JAVA utilizada:**  
-   [Descrever aqui como versão do JAVA utilizada no projeto. Sugestão: `java 21`]
+   O projeto foi escrito utilizando a versao 21 do Java.
 
 ---
 
@@ -73,4 +73,4 @@ O enunciado do trabalho pode ser encontrado aqui:
 
 ## Contato
 
-- [Opcional: E-mail pessoal do aluno.]
+- bpaulovitorgomes@gmail.com
