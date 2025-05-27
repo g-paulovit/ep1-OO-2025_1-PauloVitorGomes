@@ -22,11 +22,11 @@ O enunciado do trabalho pode ser encontrado aqui:
    [Descrever aqui como compilar o projeto. Exemplo: `javac Main.java` ou o script usado]
 
 2. **Execução:**  
-   [Descrever aqui como executar o projeto. Exemplo: `java Main` ou o script usado]
+   A execução é feita por meio de uma "java main".
 
 3. **Estrutura de Pastas:**  
-   [Descrever aqui as principais pastas do projeto]
-
+   O projeto havia sido reoorganizado em core e sistema porem tive problemas com os arquivos e perdi a organização.
+   
 3. **Versão do JAVA utilizada:**  
    O projeto foi escrito utilizando a versao 21 do Java.
 
