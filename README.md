@@ -1,7 +1,4 @@
-from pathlib import Path
-
 # Conteúdo formatado do README
-readme_content = """# Sistema Acadêmico - FCTE
 
 ## 📚 Descrição do Projeto
 
