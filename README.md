@@ -1,40 +1,54 @@
-# Sistema Acadêmico - FCTE.
+from pathlib import Path
 
-## Descrição do Projeto
+# Conteúdo formatado do README
+readme_content = """# Sistema Acadêmico - FCTE
 
-Desenvolvimento de um sistema acadêmico para gerenciar alunos, disciplinas, professores, turmas, avaliações e frequência, utilizando os conceitos de orientação a objetos (herança, polimorfismo e encapsulamento) e persistência de dados em arquivos.
+## 📚 Descrição do Projeto
 
-O enunciado do trabalho pode ser encontrado aqui:
-- [Trabalho 1 - Sistema Acadêmico](https://github.com/lboaventura25/OO-T06_2025.1_UnB_FCTE/blob/main/trabalhos/ep1/README.md)
+Desenvolvimento de um sistema acadêmico para gerenciar **alunos**, **disciplinas**, **professores**, **turmas**, **avaliações** e **frequência**, utilizando os conceitos de **orientação a objetos**:  
+- Herança  
+- Polimorfismo  
+- Encapsulamento  
 
-## Dados do Aluno
+O sistema possui interface via **terminal (CLI)**.
 
-- **Nome completo:** Paulo Vitor Gomes de Brito Matos.
-- **Matrícula:** 241025971.
-- **Curso:** Engenharias.
-- **Turma:** Turma 06.
+📄 O enunciado oficial do trabalho está disponível em:  
+[Trabalho 1 - Sistema Acadêmico](https://github.com/lboaventura25/OO-T06_2025.1_UnB_FCTE/blob/main/trabalhos/ep1/README.md)
 
 ---
 
-## Instruções para Compilação e Execução
+## 👨‍🎓 Dados do Aluno
+
+- **Nome completo:** Paulo Vitor Gomes de Brito Matos  
+- **Matrícula:** 241025971  
+- **Curso:** Engenharias  
+- **Turma:** 06
+
+---
+
+## 🛠️ Instruções para Compilação e Execução
 
 1. **Compilação:**  
-   [Descrever aqui como compilar o projeto. Exemplo: `javac Main.java` ou o script usado]
-
+   No terminal, execute o comando abaixo dentro da pasta do projeto (ou ajuste conforme sua estrutura):
+   ```bash
+   javac Main.java
+   
 2. **Execução:**  
    A execução é feita por meio de uma "java main".
+   ```bash
+   javac Main.java
 
-3. **Estrutura de Pastas:**  
-   O projeto havia sido reoorganizado em core e sistema porem tive problemas com os arquivos e perdi a organização.
-   
-3. **Versão do JAVA utilizada:**  
+3. **Estrutura de Pastas:**
+   O projeto estava inicialmente organizado em pacotes core e sistema, mas devido a problemas com os arquivos, essa organização foi temporariamente perdida. A versão atual está em uma estrutura plana (arquivos diretamente no diretório principal).
+    
+5. **Versão do JAVA utilizada:**  
    O projeto foi escrito utilizando a versao 21 do Java.
 
 ---
 
 ## Vídeo de Demonstração
 
-- [Inserir o link para o vídeo no YouTube/Drive aqui]
+- https://drive.google.com/file/d/1SG1nlj92-Fy-5DqzNu5lZkCbnxVAMeY_/view?usp=sharing
 
 ---
 
@@ -51,23 +65,9 @@ O enunciado do trabalho pode ser encontrado aqui:
 
 ---
 
-## Principais Funcionalidades Implementadas
-
-- [ ] Cadastro, listagem, matrícula e trancamento de alunos (Normais e Especiais)
-- [ ] Cadastro de disciplinas e criação de turmas (presenciais e remotas)
-- [ ] Matrícula de alunos em turmas, respeitando vagas e pré-requisitos
-- [ ] Lançamento de notas e controle de presença
-- [ ] Cálculo de média final e verificação de aprovação/reprovação
-- [ ] Relatórios de desempenho acadêmico por aluno, turma e disciplina
-- [ ] Persistência de dados em arquivos (.txt ou .csv)
-- [ ] Tratamento de duplicidade de matrículas
-- [ ] Uso de herança, polimorfismo e encapsulamento
-
----
-
 ## Observações (Extras ou Dificuldades)
 
-- [Espaço para o aluno comentar qualquer funcionalidade extra que implementou, dificuldades enfrentadas, ou considerações importantes.]
+- Esta foi minha primeira experiencia real de programação em java, tive certas dificuldades com a sintaxe e como colocar os principios de oo pra o java, porem pude ter um grande salto em conhecimento porem ao tentar fazer as ultimas mudanças de main e adicionar duas novas classes e alguns metodos novos acabei tendo problemas pra terminar o trabalho e a versão final não foi lançada em commit(explico no video). Porem foi uma excelente experiencia. 
 
 ---
 
