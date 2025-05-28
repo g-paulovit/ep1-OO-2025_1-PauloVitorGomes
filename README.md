@@ -1,4 +1,4 @@
-# Conteúdo formatado do README
+## Sistema Acadêmico - FCTE
 
 ## 📚 Descrição do Projeto
 
@@ -64,7 +64,7 @@ O sistema possui interface via **terminal (CLI)**.
 
 ## Observações (Extras ou Dificuldades)
 
-- Esta foi minha primeira experiencia real de programação em java, tive certas dificuldades com a sintaxe e como colocar os principios de oo pra o java, porem pude ter um grande salto em conhecimento porem ao tentar fazer as ultimas mudanças de main e adicionar duas novas classes e alguns metodos novos acabei tendo problemas pra terminar o trabalho e a versão final não foi lançada em commit(explico no video). Porem foi uma excelente experiencia. 
+-Esta foi minha primeira experiência real com programação em Java. Tive certas dificuldades com a sintaxe e com a aplicação dos princípios de orientação a objetos na linguagem. No entanto, consegui dar um grande salto em conhecimento. Ao tentar fazer as últimas alterações na classe main e adicionar duas novas classes, além de alguns métodos, acabei enfrentando problemas que me impediram de concluir o trabalho. Por isso, a versão final não foi enviada por commit (explico no vídeo). Mesmo assim, foi uma excelente experiência. 
 
 ---
 
